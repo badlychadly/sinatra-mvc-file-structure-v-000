@@ -10,6 +10,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/dogs' do
-    Dog.list
+    erb :list_dogs
   end
 end
