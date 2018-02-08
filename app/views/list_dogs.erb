@@ -6,6 +6,8 @@
 
   <body>
     <h1>Dogs</h1>
-    <!-- <p> I love programming </p> -->
+    <%Dog.all.each do |d| %>
+      <li> <%= d.name %> </li>
+    <p> I love programming </p>
   </body>
 </html>
