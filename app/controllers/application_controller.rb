@@ -10,6 +10,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/dogs' do
-    Dogs.all.each{|d| "#{d.name}"}
+    Dog.all.each{|d| "#{d.name}"}
   end
 end
