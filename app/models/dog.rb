@@ -18,5 +18,5 @@ class Dog
     all.each{|d| puts "#{d.name}"}
   end
 end
-Dog.new("rafi")
-Dog.new("herold")
+Dog.new("rafi", "mutt", 3)
+Dog.new("herold", "mutt", 4)
