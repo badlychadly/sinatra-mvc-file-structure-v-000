@@ -8,8 +8,4 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
-
-  get '/dogs' do
-    Dog.all.each{|d| "#{d.name}"}
-  end
 end
